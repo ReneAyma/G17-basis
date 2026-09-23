@@ -22,6 +22,11 @@
                         Comprar
                     </a>
                 </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+
+
             </ul>
         </nav>
     </header>
@@ -37,6 +42,28 @@
                     </figure>
                     <h3>Macbook Pro 14"</h3>
                     <p><strong>$1,999.99</strong></p>
+                    <table border="1">
+                    <tr>
+                        <th>Especificacion</th>
+                        <th>detalle</th>
+                    </tr>
+                    <tr>
+                        <td>M5</td>
+                        <td>Pro</td>
+                    </tr>
+                    <tr>
+                        <td>ssd</td>
+                        <td>1 TB</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>16gb</td>
+                    </tr>
+                    <tr>
+                        <td>Pantalla</td>
+                        <td>14" FHD</td>
+                    </tr>
+                 </table>
                     <button type="button">Agregar al carrito</button>
                 </article>
                 <article>
@@ -46,6 +73,28 @@
                     </figure>
                     <h3>Macbook Pro 14"</h3>
                     <p><strong>$2,000.99</strong></p>
+                    <table border="1">
+                    <tr>
+                        <th>Especificacion</th>
+                        <th>detalle</th>
+                    </tr>
+                    <tr>
+                        <td>M4</td>
+                        <td>Pro max</td>
+                    </tr>
+                    <tr>
+                        <td>ssd</td>
+                        <td>500GB</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>16gb</td>
+                    </tr>
+                    <tr>
+                        <td>Pantalla</td>
+                        <td>14" FHD</td>
+                    </tr>
+                 </table>
                     <button type="button">Agregar al carrito</button>
                 </article>
                 <article>
@@ -55,6 +104,28 @@
                     </figure>
                     <h3>Macbook Pro 14"</h3>
                     <p><strong>$4,599.99</strong></p>
+                    <table border="1">
+                    <tr>
+                        <th>Especificacion</th>
+                        <th>detalle</th>
+                    </tr>
+                    <tr>
+                        <td>M5</td>
+                        <td>Pro max</td>
+                    </tr>
+                    <tr>
+                        <td>ssd</td>
+                        <td>2 TB</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>32gb</td>
+                    </tr>
+                    <tr>
+                        <td>Pantalla</td>
+                        <td>14" FHD</td>
+                    </tr>
+                 </table>
                     <button type="button">Agregar al carrito</button>
                 </article>
                 <article>
@@ -64,8 +135,70 @@
                     </figure>
                     <h3>Macbook Pro 14"</h3>
                     <p><strong>$1,009.99</strong></p>
+                    <table border="1">
+                    <tr>
+                        <th>Especificacion</th>
+                        <th>detalle</th>
+                    </tr>
+                    <tr>
+                        <td>M3</td>
+                        <td>Pro</td>
+                    </tr>
+                    <tr>
+                        <td>ssd</td>
+                        <td>256GB</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>16gb</td>
+                    </tr>
+                    <tr>
+                        <td>Pantalla</td>
+                        <td>14" FHD</td>
+                    </tr>
+                 </table>
                     <button type="button">Agregar al carrito</button>
                 </article>
+
+                 <article>
+                 <figure>
+                    <img src="https://imgs.search.brave.com/jq8gZE-oQ39Oxm-ecCOVfsfD-VQ3ibOSufYdUXQdEL0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzF1Y0JQQkplb0wu/anBn" alt="Ryzen 5" width="300" >
+                    <figcaption>Lenovo</figcaption><!--leyenda de la imagen-->
+                 </figure>
+                 <h3>Ryzen 5</h3>
+                 <p><strong>$1,999.99</strong></p>
+
+                 <table border="1">
+                    <tr>
+                        <th>Especificacion</th>
+                        <th>detalle</th>
+                    </tr>
+                    <tr>
+                        <td>Ryzen 5</td>
+                        <td>7520U</td>
+                    </tr>
+                    <tr>
+                        <td>ssd</td>
+                        <td>256GB</td>
+                    </tr>
+                    <tr>
+                        <td>Ram</td>
+                        <td>8gb</td>
+                    </tr>
+                    <tr>
+                        <td>Pantalla</td>
+                        <td>15.6 FHD</td>
+                    </tr>
+                 </table>
+
+
+
+                 <button type="button">Agregar al carrito</button>
+            </article>
+
+
+
+
             <div>
         </section>
         <section id="compra">
@@ -139,6 +272,33 @@
                         <label for="pago-contra">Contra entrega</label>
                     </p>
                 </fieldset>
+
+                    <fieldset>
+                    <legend>Datos de facturación</legend>
+                    <p>
+                        <label for="empresa">Empresa</label><br>
+                        <input type="text" id="empresa" name="empresa" required minlength="11">
+                    </p>
+                    <p>
+                        <label for="ruc">RUC</label><br>
+                        <input type="text" id="ruc" name="ruc" pattern="[0-9]{11}">  
+                    </p>
+                    <p>
+                        <label for="pais-fac">País</label><br>
+                        <select name="pais-fac" id="pais-fac">
+                            <optgroup label="Sudamérica">
+                                <option value="pe">Perú</option>
+                            </optgroup>
+
+                            <optgroup label="Otros">
+                                <option value="es">España</option>
+
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+
+
                 <p>
                     <input type="checkbox" id="terminos" name="terminos" required>
                     <label for="terminos">Acepto terminos y condiciones</label>
@@ -184,6 +344,15 @@
                     </tr>
                 </tbody>
             </table>
+
+            <h3>Beneficios de tu compra</h3>
+            <ol>                             <!--Segundo <ol>-->
+                <li>Garantía de 12 meses</li>
+                <li>Soporte técnico gratuito por 30 días</li>
+                <li>Cambios dentro de los primeros 7 días</li>
+            </ol>
+
+
     </aside>
     <!-- Footer -->
     <footer>
